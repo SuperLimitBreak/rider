@@ -6,7 +6,7 @@ How to generate PDFs
 Pandoc can be used to generate PDFs cleanly from markdown (with embedded LaTeX)
 
 ```bash
-pandoc -o [nameOfFile.pdf] nameOfFile.md
+pandoc -o nameOfOutputFile.pdf nameOfInputFile.md
 ```
 
 Dependencies
